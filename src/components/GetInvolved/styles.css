@@ -1,0 +1,99 @@
+#get-involved .container {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem 3rem 3rem;
+}
+
+#get-involved .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    color: #4e4e4e;
+    margin-bottom: 4rem;
+}
+
+#get-involved .title::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 15%;
+    height: 3px;
+    bottom: -6px;
+    background-color: #0078ff;
+}
+
+#get-involved h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin: 0;
+}
+
+#get-involved .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #get-involved .content {
+        flex-direction: column;
+    }
+}
+
+#get-involved .icon {
+    font-size: 4rem;
+    border-radius: 50%;
+    border: 8px solid #0078ff;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#get-involved .icon svg {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#get-involved .card {
+    width: 29%;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: white;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    #get-involved .card {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: none;
+    }
+}
+
+#get-involved h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #1e1e1e;
+}
+
+#get-involved p {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #4e4e4e;
+}

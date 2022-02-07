@@ -1,0 +1,64 @@
+#contact {
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 120, 255, 0.6), rgba(0, 120, 255, 0.6)), url('contact.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact .container {
+    padding: 3rem 2rem;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#contact h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+    color: #1e1e1e;
+    width: max-content;
+    font-weight: 500;
+}
+
+#contact p {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+#contact h1::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    bottom: -6px;
+    background-color: #0078ff;
+}
+
+#contact .contact {
+    margin: 10px 0;
+}
+
+#contact .contact svg {
+    color: #0078ff;
+    margin-right: 10px;
+}
+
+#contact #socials a {
+    display: inline-block;
+    border: 4px solid #0078ff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+#contact #socials a svg {
+    width: 30px;
+    height: 30px;
+    color: #1e1e1e;
+}

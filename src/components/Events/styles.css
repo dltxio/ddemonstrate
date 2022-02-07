@@ -1,0 +1,36 @@
+#events .container {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 3rem;
+}
+
+#events .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    color: #4e4e4e;
+    margin-bottom: 4rem;
+}
+
+#events .title::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 15%;
+    height: 3px;
+    bottom: -6px;
+    background-color: #0078ff;
+}
+
+#events h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin: 0;
+}

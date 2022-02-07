@@ -1,0 +1,25 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('home.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+}

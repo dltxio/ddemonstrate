@@ -1,0 +1,33 @@
+#stats {
+    padding: 8rem 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #4A9EFC;
+    color: white;
+}
+
+#stats .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#stats .icon {
+    font-size: 2.5rem;
+    border-radius: 50%;
+    border: 8px solid #CDE1F8;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#stats span.number {
+    font-size: 2rem;
+    margin: 0.2rem 0;
+}

@@ -17,7 +17,7 @@ const Contact = () => {
                 </div>
                 <div className="contact">
                     <FontAwesomeIcon icon={faEnvelope} />
-                    ddemonstrate.@protonmail.com
+                    ddemonstrate@protonmail.com
                 </div>
                 <div id="socials">
                     <a href="https://www.twitter.com/ddemonstrate" target="_blank" rel="noopener noreferrer">

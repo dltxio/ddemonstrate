@@ -10,16 +10,29 @@
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
+    width: 100vw;
 }
 
 #home h1 {
+    width: 100%;
     font-size: 4.5rem;
     font-weight: 600;
     margin: 0;
 }
 
+
 #home h2 {
     font-size: 2.5rem;
     font-weight: normal;
     margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home h2 {
+        font-size: 1.5rem;
+    }
 }

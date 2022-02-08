@@ -1,27 +1,70 @@
 #navbar {
     width: 100%;
-    height: 50px;
     position: fixed;
+    z-index: 1;
 }
 
-#navbar .scroll-up {
+#navbar #navbar-desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5rem;
-    background-color: transparent;
-    color: white;
     transition: all 0.3s ease-in-out;
 }
 
-#navbar .scroll-down {
+#navbar #navbar-mobile {
+    opacity: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navbar #navbar-desktop {
+        display: none;
+    }
+
+    #navbar #navbar-mobile {
+        opacity: 1;
+    }
+}
+
+#navbar #navbar-mobile .mobile-links {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 96px;
+    /* navbar height of 96, minus 1 px for consistency */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    color: #0078ff;
+    transition: all 0.3s ease-in-out;
+    width: 100vw;
+    gap: 1rem;
+    padding: 0 5rem 2rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 7px;
+}
+
+#navbar #navbar-mobile .menu-hidden {
+    opacity: 0 !important;
+}
+
+#navbar #navbar-mobile svg {
+    font-size: 2rem;
+}
+
+#navbar .scroll-up {
+    padding: 2rem 5rem;
+    background-color: transparent;
+    color: white;
+}
+
+#navbar .scroll-down {
     padding: 2rem 5rem;
     background-color: white;
     color: #0078ff;
-    transition: all 0.6s ease-in-out;
 }
 
 #navbar h2 {
@@ -39,13 +82,13 @@
 #navbar button {
     border: none;
     color: inherit;
-    background-color: inherit;
+    background-color: transparent;
     cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
 }
 
-#navbar button .line {
+#navbar button span {
     display: block;
     background-color: currentColor;
     height: 2px;
@@ -59,6 +102,6 @@
     width: 45px;
 }
 
-#navbar button .active-line {
+#navbar .active-line {
     width: 45px;
 }

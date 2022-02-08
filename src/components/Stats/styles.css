@@ -8,6 +8,14 @@
     color: white;
 }
 
+@media only screen and (max-width: 1000px) {
+    #stats {
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+    }
+}
+
 #stats .card {
     display: flex;
     justify-content: center;

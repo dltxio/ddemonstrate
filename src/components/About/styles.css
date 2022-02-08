@@ -26,6 +26,13 @@
     font-size: 1.25rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    #about {
+        padding: 3rem 2rem;
+    }
+}
+
+
 #about h1::after {
     content: "";
     display: block;

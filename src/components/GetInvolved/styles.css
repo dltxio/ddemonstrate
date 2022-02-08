@@ -76,13 +76,14 @@
     box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
     padding: 1rem;
     border-radius: 0.5rem;
+    word-break: break-word;
 }
 
 @media only screen and (max-width: 1000px) {
     #get-involved .card {
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 80vw;
     }
 }
 

@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    padding: 2rem 5rem;
 }
 
 #navbar #navbar-mobile {
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 3rem;
     transition: all 0.3s ease-in-out;
 }
 
@@ -56,13 +58,11 @@
 }
 
 #navbar .scroll-up {
-    padding: 2rem 5rem;
     background-color: transparent;
     color: white;
 }
 
 #navbar .scroll-down {
-    padding: 2rem 5rem;
     background-color: white;
     color: #0078ff;
 }

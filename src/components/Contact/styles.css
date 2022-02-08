@@ -63,3 +63,9 @@
     height: 30px;
     color: #1e1e1e;
 }
+
+@media only screen and (max-width: 1000px) {
+    #contact {
+        padding: 3rem 2rem;
+    }
+}
